@@ -1,2 +1,1 @@
-cwd=/alx-system_engineering-devops/0x00-shell_basics
-\n echo Current working directory: 
+#!/bin/bash \n echo "Current working directory : $(pwd)"

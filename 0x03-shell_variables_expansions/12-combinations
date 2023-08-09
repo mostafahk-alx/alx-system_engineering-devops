@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..z}{a..z} | tr -d "oo\n"
+echo {a..z}{a..z} | tr -d "oo" | grep -v '^oo$' | fmt -w 1
